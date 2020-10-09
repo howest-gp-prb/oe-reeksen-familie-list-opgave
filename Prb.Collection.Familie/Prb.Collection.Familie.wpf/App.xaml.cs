@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace FamilieLists.Wpf
+namespace Prb.Collection.Familie.wpf
 {
     /// <summary>
     /// Interaction logic for App.xaml

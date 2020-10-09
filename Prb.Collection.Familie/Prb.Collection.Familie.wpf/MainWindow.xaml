@@ -1,11 +1,11 @@
-﻿<Window x:Class="FamilieLists.Wpf.MainWindow"
+﻿<Window x:Class="Prb.Collection.Familie.wpf.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:FamilieLists.Wpf"
+        xmlns:local="clr-namespace:Prb.Collection.Familie.wpf"
         mc:Ignorable="d"
-        Title="Familie" Height="450" Width="800">
+        Title="Familie" Height="450" Width="700">
     <Grid>
         <Label Content="Voeg je familie toe:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <Label Content="Voornaam:" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top"/>
@@ -17,6 +17,5 @@
         <Button x:Name="btnVerwijderGeselecteerdFamilielidIndex" Content="Verwijder geselecteerd familielid (Index)" HorizontalAlignment="Left" Margin="12,150,0,0" VerticalAlignment="Top" Width="245" />
         <Button x:Name="btnVerwijderGeselecteerdFamilielidValue" Content="Verwijder geselecteerd familielid (Value)" HorizontalAlignment="Left" Margin="12,175,0,0" VerticalAlignment="Top" Width="245" />
         <Button x:Name="btnVerwijderGansDeFamilie" Content="Verwijder gans de familie" HorizontalAlignment="Left" Margin="12,218,0,0" VerticalAlignment="Top" Width="245" />
-
     </Grid>
 </Window>
